@@ -1,0 +1,147 @@
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Times New Roman', cursive;
+    font-size: 60px;
+    color:#ffa279
+}
+
+.container{
+display: flex;
+
+}
+
+.item{
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', cursive;
+    flex: 1; 
+    position: relative;   
+}
+
+h4{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color:black;
+}
+
+.par{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    background-color: rgb(255, 255, 255, 0.5);
+    color:black;
+    opacity: 0;
+}
+
+.price{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    background-color: rgb(255, 255, 255, 0.5);
+    color:black;
+}
+
+.one {
+background-image: url(1.jpg);
+}
+.two{
+background-image: url(2.jpg);
+}
+.three{
+background-image: url(3.jpg);
+}
+.four{
+background-image: url(4.jpg);
+}
+.five{
+background-image: url(5.jpg);
+}
+body{
+    background-color: #fdeed9;
+}
+
+.selected{
+flex: 4;
+}
+
+.selected h4{
+font-size: 40px;
+transition: all 1s ease-in;
+opacity: 1;
+}
+
+.selected .par {
+    font-size: 20px;
+    transition: all 1s ease-in;
+    opacity: 1;
+}
+
+.selected .price {
+    font-size: 35px;
+    transition: all 1s ease-in;
+}
+
+.em{
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', cursive;
+    margin-bottom: 20px;
+ }
+.mess{
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', cursive;
+    margin-right: 90px;
+    }
+
+.send{
+    text-align: center;
+    border: 1mm solid #d8b6a0;
+    border-radius: 5px;
+    background-color: #ffb3aa;
+    margin: 20px 20px 20px 20px;
+    font-family: 'Times New Roman', cursive;
+    font-size: 30px;
+}
+
+input{
+background-color: rgba(8, 41, 70, 0);
+border:solid 1px #ccc;
+border-radius: 10px;
+width: 50%;
+
+
+}
+
+@keyframe loading {
+  0%   {opacity: 0.9; right: 0px; top: 0px;}
+  25%  {opacity: 0.7; right: 50px; top: 50px;}
+  50%  {opacity: 0.5; right: 0px; top: 50px;}
+  75%  {opacity: 0.3; right: 50px; top: 0px;}
+  100% {opacity: 0.1; right: 0px; top: 0px;}
+}
+
+@-webkit-keyframes loading {
+  0%   {opacity: 0.9; right: 0px; top: 0px;}
+  25%  {opacity: 0.7; right: 50px; top: 50px;}
+  50%  {opacity: 0.5; right: 0px; top: 50px;}
+  75%  {opacity: 0.3; right: 50px; top: 0px;}
+  100% {opacity: 0.1; right: 0px; top: 0px;}
+}
+.container{
+  width: 100wv;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
